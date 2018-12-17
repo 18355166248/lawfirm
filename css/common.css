@@ -16,13 +16,14 @@
 .media-mobile-ibk {display:none !important;}
 .media-pc{ display:block !important}
 .media-pc-ibk { display:inline-block !important}
-div{background-position: 50% 50%; background-repeat: no-repeat; background-size:100% 100%; background-origin: padding-box; background-clip: padding-box;}
+div,a{background-position: 50% 50%; background-repeat: no-repeat; background-size:100% 100%; background-origin: padding-box; background-clip: padding-box;}
 .z2{z-index: 2;position: relative;}
 html,body{ width:100%; height:100%;}
 .bold{font-family: 'PFbold'}
 body{min-width: 930px;font-family: "PF",arial;}
 .font-en,.font-en sup{font-family:'PF', arial, sans-serif;}
-* {margin:0;padding:0; border:0; word-break:break-all; word-wrap:normal; line-height:1;font-weight:normal;}
+a:visited{background-color: none;color: transparent;}
+* {outline: none; margin:0;padding:0; border:0; word-break:break-all; word-wrap:normal; line-height:1;font-weight:normal;}
 table{border-collapse:collapse;border-spacing:0;}
 fieldset,img {border:0 none;}
 address,caption, cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
