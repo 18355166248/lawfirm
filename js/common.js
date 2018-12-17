@@ -98,13 +98,14 @@ $(function () {
     }
 
     function close_menu_mobile() {
-        $('.icon-close').on('click', function(event) {
-            event.stopPropagation();
-            $('#dialog>.menu-box').removeClass('active')
-            setTimeout(() => {
-                $('#dialog').hide()
-                $('html').css('overflow-y', 'auto')
-            }, 320)
+        $('#dialog').on('click', function() {
+            if (event.target.id === 'dialog' || event.target.nodeName === 'svg') {
+                $('#dialog>.menu-box').removeClass('active')
+                setTimeout(() => {
+                    $('#dialog').hide()
+                    $('html').css('overflow-y', 'auto')
+                }, 320)
+            }
         })
     }
 
@@ -205,16 +206,16 @@ function gotoTop(box) {
 gotoTop();
 
 //渲染页面头部导航
-function renderHeader(callback1, callback2) {
+function renderHeader(close, open) {
     if ($("#header").length > 0) {
         $("#header").load("publicHtml/header.html?v=" + Math.random(), function () {
             loadNavEnd = true;
             if (loadNavEnd) loadend();
             $('#header .header-top ').scrollFix({ zIndex: 5 });
-            callback2()
+            open()
         });
         $("#dialog").load("publicHtml/dialog.html?v=" + Math.random(), function () {
-            callback1();
+            close();
         });
     }
     else {

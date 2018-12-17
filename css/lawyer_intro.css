@@ -25,13 +25,22 @@
 .intro .container .box .mini-box .describ p { font-size: .875em;color: #4f4f4f;line-height: 1.25em;padding: 0 1.43em; }
   
 @media screen and (max-width:1200px){
-  .banner .txt { top: 35%; }
+  .about {margin: 7.1em 0 2.4em 0;}
+  .banner .txt > p {width: 85%;margin: 0 auto;}
+  .about p:last-child {width: 85%;}
+  .about p:nth-child(2) {margin-top: 1.45em;}
+  .about p:nth-child(3) {margin-bottom: 1.14em;}
+  .banner .txt { top: 35%; position: static;width: 100%;margin-top: 7.1em;}
+  .intro { padding: 0 4%; }
+  .intro .container .box .mini-box { width: 47.97%;}
+  .intro .container .box .mini-box .describ p {font-size: .833em;padding: 0 1em;}
+  .intro .container .box .mini-box .describ {height: 22.6em;}
 }
 
 /*如果使用者之视窗介於 768px ~ 979px   */
 @media screen and (min-width: 768px) and (max-width: 979px) {
    
-}  
+}
    
 /*如果使用者之视窗 <= 768px   */
 @media screen and (max-width: 767px) {
