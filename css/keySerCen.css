@@ -1,0 +1,19 @@
+.serCenbody { background-color: #eee;padding-top: 13px;padding-bottom: 238px; }
+.bodyLeft { padding-left: 10px;width: 160px; }
+.bodyLeft h3{ font-size: 22px;font-weight: bold; }
+.bodyLeft .list { margin-top: 10px; }
+.bodyLeft .list li a { font-size: 14px;color: #070707;font-weight: bold;line-height: 25px; }
+.bodyRight { padding: 115px 0 0 65px;width: 695px; }
+.bodyRight h1 { font-size: 32px;color: #000; }
+.bodyRight p { font-size: 14px;line-height: 22px;color: #000; }
+.bodyRight .emailp { margin: 68px 0 40px; }
+.bodyRight .mallp { margin: 103px 0 53px; }
+/*.bodyRight .box { vertical-align: middle; }*/
+.bodyRight .box { margin-left: 63px; }
+.bodyRight .jdbox { margin-top: 65px; }
+.bodyRight .emailbox .ml20 { margin-left: 20px;vertical-align: middle;}
+.bodyRight .box a { vertical-align: middle;font-size: 0; }
+.bodyRight .box span { font-size: 24px;color: #f47c02;font-weight: bold; }
+.bodyRight .tmallbox span,.bodyRight .jdbox span { margin-left: 90px; }
+
+

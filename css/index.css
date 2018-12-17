@@ -1,0 +1,148 @@
+/* ban */
+.index .ban{text-align: center;height:0!important;padding-bottom: 43%;}
+.index .ban img{width: 100%;max-width: 100%;}
+.index .ban .swiper-slide{width: 100%!important;}
+.index .ban .swiper-slide>a{position: relative;}
+.index .ban  .tip{width:42%;;position: absolute;top: 20%;left: 18.75%;color: #fff;text-align: left;}
+.index .ban  .tip .title{font-size: 3em;margin-bottom: 18px;}
+.index .ban  .tip .info{font-size: 1.125em;opacity: .8;width: 94.8%;margin-top: 17px;margin-bottom: 4%; line-height: 30px;}
+.index .ban  .tip .btn{overflow: hidden; font-size: 1.125em;text-align: center; opacity: .8;width: 35%;height: 3em;line-height: 3em;line-height: 3em;background-color: #174894;}
+
+/* intro */
+.index .intro{padding-top: 3.5%;}
+.index .intro .section{width: 100%;}
+.index .intro .section1{overflow: hidden;}
+.index .intro .section1 .flex1{height: auto;}
+.index .intro .section1 .p1{font-size: 1.125em;color: #174894;margin-top: 1.5em;margin-bottom:2em;}
+.index .intro .section1 .p2{font-size: 1.6em;line-height: 1.2;}
+.index .intro .section1 .imageBox{width: 50%;height: 100%;position: relative;/*padding-bottom: 100%;*/overflow: hidden;}
+.index .intro .section1 .imageBox>img{width: 100%;/*position: absolute;top: 0;left: 0;*/}
+.index .intro .section1 .imageBox>p{position: absolute;top: 0;left: 0; text-align: center; width: 100%;height: 100%;font-size: 1.6em;color: #fff;line-height: 1.2;}
+/* .index .intro .section1 .flex2{height: 674px;} */
+.index .intro .section1 .flex2 .imageBox{width: 100%;/*padding-bottom: 100%;*/}
+.index .intro .section1 .flex2 .p3{font-size: 1.125em;color: #4f4f4f;line-height: 1.2;text-align: justify;padding: 4%;}
+.index .intro .section1 .flex2 .more{font-size: 1em;color: #174894;padding: 4%;}
+.index .intro .section1 .imageBox>img{ -webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+.index .intro .section1 .imageBox>img:hover{-webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;-webkit-transform: scale(1.1);-moz-transform: scale(1.1);-ms-transform: scale(1.1);-o-transform: scale(1.1);transform: scale(1.1);}
+.index .intro .section1 .imageBox .roate{background-color: #174894;position: absolute;top: 0;left: 0; text-align: center; width: 100%;height: 100%;}
+.index .intro .section1 .imageBox>p.mask{cursor: pointer;-webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+.index .intro .section1 .imageBox>p.mask:hover{-webkit-mask-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) 60%);-webkit-mask-size: 200% 100%;-webkit-mask-repeat: no-repeat;-webkit-mask-position: 120% 0;/* opacity: 1; */-webkit-animation: masked-animation 2s 1 linear forwards;}
+  @-webkit-keyframes masked-animation {
+    0% {
+      -webkit-mask-position: 120% 0;
+      opacity: 0;
+    }
+  
+    100% {
+      -webkit-mask-position: 0 0;
+      opacity: 1;
+    }
+  }
+/* container2 */
+.index .intro .container2{position: relative;height: 0;padding-bottom: 45%;margin-top: -12%;padding-top: 18%;}
+.index .intro .container2 .greybg{width: 100%;position: absolute;top:0;left: 50%;transform: translateX(-50%);}
+.index .intro .container2 .section2{position: relative;z-index: 2;}
+.index .intro .container2 .section2 .title{text-align: center;margin-bottom: 5%;}
+.index .intro .container2 .section2 .title>img{width: 3.6%;}
+.index .intro .container2 .section2 .title>img{margin-bottom: 2em; -webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;}
+.index .intro .container2 .section2 .title>h2{font-size: 1.875em;margin-bottom: .8em;}
+.index .intro .container2 .section2 .title>p{font-size:1.125em; color: #4f4f4f;line-height: 1.2;}
+.index .intro .container2 .section2 .flex{text-align: left;}
+.index .intro .container2 .section2 .flex .item{transition: box-shadow .1s ease-in-out;width:24%;height: 25em;box-sizing: border-box;padding: 28px 25px;background-color: #fff;}
+.index .intro .container2 .section2 .flex .item:hover{box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.index .intro .container2 .section2 .flex .item>img{width: 35%;margin-bottom: 1em;}
+.index .intro .container2 .section2 .flex .item dt{font-size: 1.125em;margin-bottom: 0.8em;}
+.index .intro .container2 .section2 .flex .item dd{font-size: 1em;color: #121212;line-height: 1.4;}
+.index .intro .container2 .section2 .flex .item .item-more{color:#174894;margin-top:1.5em;}
+
+/* section3 */
+.index .intro .section3{text-align: center;margin-bottom: 5em;}
+.index .intro .section3>.box{height: auto;text-align: left;}
+.index .intro .section3>.box>div.con{width: 49%;}
+.index .intro .section3>.box .con1>.imageBox{height: auto;position: relative;}
+.index .intro .section3>.box .con1>.imageBox>img{width: 100%;}
+.index .intro .section3>.box .p1{line-height: 1.2; color:#174894;font-size: 0.875em;margin-top: 1.5em;margin-bottom: 1em;}
+.index .intro .section3>.box .p2{font-size: 2em;line-height: 1.2;}
+.index .intro .section3>.box .p3{font-size: 1.2em;line-height: 1.2;}
+.index .intro .section3 .con2{flex-wrap: wrap;}
+.index .intro .section3 .con2 .imageBox{height: auto;width: 49%;position: relative;}
+.index .intro .section3 .con2 .imageBox>img{width: 100%;}
+.index .intro .section3 .btn{font-size: 1.125em;padding: 0.8em 2em;background-color: #133b79;color: #fff;}
+
+/* section4 */
+.index .intro .section4{text-align: center;margin-bottom: 5em;}
+.index .intro .section4 .p1{font-size: 1.125em;color: #174894;margin-top: 1.5em;margin-bottom:2em;}
+.index .intro .section4 .p2{font-size: 1.6em;line-height: 1.2;}
+.index .intro .section4 .p3{font-size: 1.125em;color: #4f4f4f;line-height: 1.2;margin: 2em 0;}
+.index .intro .section4 .item{width: 24%;text-align: center;overflow: hidden;}
+.index .intro .section4 .item>img{width: 100%;}
+.index .intro .section4 .title{font-size: 1.3em;margin-top: 1em;margin-bottom: .3em;}
+.index .intro .section4 .title2{font-size: 1.125em;color: #121212;margin-bottom: .3em;}
+.index .intro .section4 .info{-webkit-transition: all 0.35s ease-in-out;-moz-transition: all 0.35s ease-in-out;transition: all 0.35s ease-in-out;overflow: hidden;text-align: justify;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp: 4;-webkit-box-orient: vertical;font-size: .875em;color: #4f4f4f;line-height: 1.2;}
+.index .intro .section4 .info.active{display: block;height: 10em;}
+.index .intro .section4 .arr_more{cursor: pointer; margin: 1em auto; width: 1.25em;height: 0.8em;background-image: url(../images/index/arr-more.png);}
+.index .intro .section4 .btn{margin-top: 1em; font-size: 1.125em;padding: 0.8em 2em;background-color: #133b79;color: #fff;}
+
+/* section5 */
+.map-container{height: 643px;}
+.map-container .map{width: 100%;height: 100%;}
+
+/* alertBox */
+.alertBox .none{display: none;}
+.alertBox>div {position: relative; background-color: #fff;width: 1200px;height: auto;padding: 0;border-radius:0;box-shadow: none;position: absolute;margin: 0; top: 50%;left: 50%;transform: translate(-50%,-50%);}
+.alertBox .title{position: relative; text-align: center;color: #fff;font-size: 1.375em;line-height: 2;background-color: #174894;}
+.alertBox .close{cursor: pointer; width: 40px;line-height: 2;font-weight: bold;color: #174894;background-color: #b9c4d5;text-align: center;position: absolute;right: 0;top: 0;}
+.alertBox .con{position: relative;text-align: center; width: 85.75%;height: auto; margin:0 auto;white-space: nowrap;}
+.alertBox .con:before, .alertBox .con:after {content: "";display: inline-block;width: 0;height: 100%;vertical-align: middle;}
+.alertBox .con .word-inner{width: 77%;margin: 10% auto; display: inline-block;vertical-align: middle;white-space: normal;}
+.alertBox .con .arr{width: 25px;height: 46px;position: absolute;top: 50%;transform: translateY(-50%);cursor: pointer;}
+.alertBox .con .arr_left{background-image: url(../images/index/arr-prev.png);left: 0;}
+.alertBox .con .arr_right{background-image: url(../images/index/arr-next.png);right: 0;}
+.alertBox .con .word-inner .swiper{width: 100%;overflow: hidden;}
+.alertBox .con .word-inner .swiper-slides{text-align: left;width: 100%;}
+.alertBox .con .word-inner .swiper-slides>img{width: 113px;vertical-align: middle;margin-right: 8%;}
+.alertBox .con .word-inner .swiper-slides .listBox{display: inline-block;text-align: left;vertical-align: middle;}
+.alertBox .con .word-inner .swiper-slides .listBox dt{font-size: 1.125em;margin-bottom: 0.8em;}
+.alertBox .con .word-inner .swiper-slides .listBox dd{font-size: 1em;color: #121212;line-height: 1.4;}
+
+
+@media screen and (max-width:1200px){
+    .index .ban  .tip .title{font-size: 1.8em;}
+    .index .ban  .tip .info{font-size: 1em;}
+    .index .ban  .tip .btn{font-size: 1em;}
+    /* .index .intro .section1 .flex1{height: 200px;} */
+    /* .index .intro .section1 .flex2{height: 330px;} */
+    .index .intro .section1 .p1{font-size: 1em;}
+    .index .intro .section1 .p2{font-size: 1.2em;}
+    .index .intro .section1 .imageBox>p{font-size: 1.2em;}
+    .index .intro .section1 .flex2 .p3{font-size: 1em;}
+    .index .intro .section1 .flex2 .more{font-size: 1em;}
+    .index .intro .container2 .section2 .title>img{width: 3%;}
+    .index .intro .container2 .section2 .title>img{margin-bottom: 1em;}
+    .index .intro .container2 .section2 .title>h2{font-size: 1.2em;margin-bottom: 0.5em;}
+    .index .intro .container2 .section2 .title>p{font-size:1em; }
+    .index .intro .container2 .section2 .flex .item{padding: 15px;/*height: 20em;*/}
+    .index .intro .container2 .section2 .flex .item dt{font-size: 1em;}
+    .index .intro .container2 .section2 .flex .item dd{font-size: 0.8em;}
+    .alertBox .title{font-size: 1em;}
+    .index .intro .section3 .flex .p2{font-size: 1.5em;}
+
+    .index .intro .section4 .p1{font-size: 1em;}
+    .index .intro .section4 .p2{font-size: 1.2em;}
+    .index .intro .section4 .p3{font-size: 1em;}
+}
+@media screen and (max-width: 1200px){
+  .alertBox>div{width: 100%;}
+  .index .intro .container2{padding-bottom: 65%;}
+  
+}
+/*如果使用者之视窗介於 768px ~ 979px   */
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    .index .ban  .tip .title{font-size: 1.75em;}
+    .index .ban  .tip .info{font-size: 0.8em;}
+    .index .ban  .tip .btn{font-size: 0.8em;}
+}  
+   
+/*如果使用者之视窗 <= 768px   */
+@media screen and (max-width: 767px) {
+}  

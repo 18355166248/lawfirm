@@ -1,0 +1,29 @@
+.websiteMap .position { background-color: #e8e8e8; }
+.webMapbody { background-color: #e8e8e8;padding-top: 17px;padding-bottom: 60px; }
+.webMapbody .container { width: 920px;padding-left: 10px; }
+.webMapbody h1 { font-size: 26px;font-weight: bold;color: #000; }
+.webMapbody .mapcontent { margin-top: 23px;background-color: #fff;padding: 57px 0 0 84px; }
+.mapcontent a { color: #ee7b01;display: block; }
+/*top*/
+.top { padding-bottom: 6px; }
+.box { width: 290px; }
+.fz20 { font-size: 20px;font-weight: bold;margin-bottom: 25px; }
+.fz15 { font-size: 16px;font-weight: bold; }
+.xl { margin-top: 20px;font-size: 14px;margin-left: 0;font-weight: bold; }
+.pro { font-size: 14px;margin-top: 15px;margin-left: 0px; }
+.new { margin-top: 28px;margin-left: 0; }
+.hot { margin-top: 12px;margin-left: 0;font-size: 14px;}
+.box .right { margin-left: 100px; }
+.rightpro { margin-left: 0;margin-top: 16px;font-size: 14px; }
+.mt15 { margin-top: 15px; }
+.mt20 { margin-top: 20px; }
+.mt50 { margin-top: 50px; }
+.mb23 { margin-bottom: 23px; }	
+.womenbox { margin-left: 143px; }
+/*bottom*/
+.bottom { margin-top: 50px;width: 312px;padding-bottom: 50px;}
+.bottom span.title{color: #ee7b01;margin-bottom: 15px;display: inline-block; }
+.bottom .alink { font-size: 14px;margin-bottom: 15px; }
+.bottom .hotsale { margin-left: 90px; }
+.bottom .bxl { margin-left: 0; }
+.bottom .bpro { margin-left:0;margin-top: 15px;font-size: 14px;}
