@@ -3,7 +3,7 @@
 .index .ban img{width: 100%;max-width: 100%;}
 .index .ban .swiper-slide{width: 100%!important;}
 .index .ban .swiper-slide>a{position: relative;}
-.index .ban .tip{width:42%;;position: absolute;top: 20%;left: 18.75%;color: #fff;text-align: left;}
+.index .ban .tip{width:42%;;position: absolute;top: 30%;left: 18.75%;color: #fff;text-align: left;}
 .index .ban .tip .con,.index .ban .tip .btn{z-index: 2;position: relative;}
 .index .ban .tip .title{font-size: 2.6em;margin-bottom: 18px;}
 .index .ban .tip .info{font-size: 1.125em;opacity: .8;width: 94.8%;margin-top: 17px;margin-bottom: 4%; line-height:1.4;}
@@ -49,7 +49,7 @@
 .index .intro .container2 .section2 .title>h2{font-size: 1.875em;margin-bottom: .8em;}
 .index .intro .container2 .section2 .title>p{font-size:1.125em; color: #4f4f4f;line-height: 1.2;}
 .index .intro .container2 .section2 .flex{text-align: left;}
-.index .intro .container2 .section2 .flex .item{transition: box-shadow .1s ease-in-out;width:24%;height: 25em;box-sizing: border-box;padding: 28px 25px;background-color: #fff;}
+.index .intro .container2 .section2 .flex .item{transition: box-shadow .1s ease-in-out;width:24%;height: 27em;box-sizing: border-box;padding: 28px 25px;background-color: #fff;}
 .index .intro .container2 .section2 .flex .item:hover{box-shadow:0 2px 8px rgba(0,0,0,.08);}
 .index .intro .container2 .section2 .flex .item>img{width: 35%;margin-bottom: 1em;}
 .index .intro .container2 .section2 .flex .item dt{font-size: 1.125em;margin-bottom: 0.8em;}
@@ -89,8 +89,8 @@
 .index .intro .section5 .map-container{height: 643px;margin-right: 3em;}
 .index .intro .section5 .map-container .map{width: 100%;height: 100%;}
 .index .intro .section5 .line{width: 3em;margin-bottom: .5em;}
-.index .intro .section5 .title{font-size: 2.2em;}
-.index .intro .section5 .title2{margin-top:.2em;margin-bottom: 1.8em;}
+.index .intro .section5 .title{font-size: 2.2em;margin-left: -.1em;}
+.index .intro .section5 .title2{margin-top:.2em;margin-bottom: 1.5em;    margin-left: -.1em;}
 .index .intro .section5 .info{margin-bottom: .2em;}
 .index .intro .section5 .info>p{font-size: 1em;color: #4f4f4f;line-height: 1.6;}
 
@@ -120,7 +120,9 @@
 @media screen and (min-width: 1201px) and (max-width: 1440px){
   .index .intro .container2{padding-bottom: 65%;}
 }
-
+@media screen and (min-width: 1201px) and (max-width: 1366px){
+    .index .intro .container2 .section2 .flex .item{padding: 15px;height: 27em;}
+}
 @media screen and (max-width:1200px){
     .index .ban .tip .bg{height: 12em;}
     .index .ban  .tip .title{font-size: 1.5em;}
@@ -137,7 +139,7 @@
     .index .intro .container2 .section2 .title>img{margin-bottom: 1em;}
     .index .intro .container2 .section2 .title>h2{font-size: 1.2em;margin-bottom: 0.5em;}
     .index .intro .container2 .section2 .title>p{font-size:1em; }
-    .index .intro .container2 .section2 .flex .item{padding: 15px;/*height: 20em;*/}
+    .index .intro .container2 .section2 .flex .item{padding: 15px;height: 25em;}
     .index .intro .container2 .section2 .flex .item dt{font-size: 1em;}
     .index .intro .container2 .section2 .flex .item dd{font-size: 0.8em;}
     .alertBox .title{font-size: 1em;}
