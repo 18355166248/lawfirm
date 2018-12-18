@@ -11,7 +11,7 @@
 	  font-weight: normal;   
 	  font-style: normal;
  }
-/* ---------------------------------------- css base �������ֿ�ʼ---------------------------------------- */
+/* ---------------------------------------- css base 基础部分开始---------------------------------------- */
 .media-mobile,
 .media-mobile-ibk {display:none !important;}
 .media-pc{ display:block !important}
@@ -36,8 +36,8 @@ a {text-decoration: none; font-weight:normal; cursor:pointer;color: #010101;disp
 a:hover{text-decoration: none;}
 b{ font-weight:bold; display:inline;}
 input{height:auto; outline:none; vertical-align:bottom;+vertical-align:middle !important; _vertical-align:middle; line-height:normal}
-textarea {resize: none;} /*6��14�ո��£����webkit���ĵ����������Chrome(google�����),Safari(ƻ�������)��textare�ɵ�����С�����ⶨ��. ȡ���϶�������С*/
-textarea:focus {outline: none;} /*6��14�ո���. textarea�ľ۽�ʱ����Ĭ�ϱ߿���ɫ����*/
+textarea {resize: none;} /*6月14日更新，针对webkit核心的浏览器——Chrome(google浏览器),Safari(苹果浏览器)中textare可调整大小的问题定义. 取消拖动调整大小*/
+textarea:focus {outline: none;} /*6月14日更新. textarea的聚焦时现在默认边框颜色不变*/
 i,em,cite { font-style: normal; }
 html {font-size: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
 video{ background:#000;}
@@ -54,31 +54,31 @@ video{ background:#000;}
 .zoom{zoom:1}
 .ct,.center{ margin:0px auto;}
 .text-uppercase{text-transform: uppercase;}
-/* ---------------------------------------- css base �������ֽ���---------------------------------------- */
+/* ---------------------------------------- css base 基础部分结束---------------------------------------- */
 
-/* ---------------------------------------- �������ֿ�ʼ ---------------------------------------- */
+/* ---------------------------------------- 公共部分开始 ---------------------------------------- */
 
-/* ȡ��ϵͳalert�ľ�����ʾ����*/
+/* 取代系统alert的警告提示弹窗*/
 .alertBox{ position:fixed; left:0; top:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:998; display:none;}
 .alertBox>div{background-color:#fff; width:500px; padding:40px 0; border-radius:10px; box-shadow:0 0 10px #000; margin:200px auto 0;}
 .alertBox>div p{ text-align:center;}
 .alertBox>div p.text{ margin-bottom:40px; font-size:18px; color:#222;}
 .alertBox>div p.btn a{ font-size:18px; padding:10px 40px; color:#fff; background:#222; letter-spacing:4px; border-radius:6px;}
 
-/* pop���� css*/
+/* pop容器 css*/
 .popBox{position:fixed; left:0; top:0; width:100%; height:100%; z-index:999;}
 .popBox .popMask {width:100%; height:100%; background:#000\9; filter:alpha(opacity=50)\9; background:rgba(0,0,0,0.5);}
 
-/* load���� css*/
+/* load浮层 css*/
 #loadBox{ position:fixed; left:0; top:0; width:100%; height:100%; background:#000; opacity:0.5; filter:alpha(opacity=50)\9; z-index:999; display:none;}
 #loadBox span{ display:block; width:40px; height:40px; background:url(../images/common/loading.gif) no-repeat; background-size:contain; line-height:40px; font-size:10px; text-align:center; color:#fff; text-shadow:1px 1px 1px #333; position:absolute; left:50%; top:50%; margin-left:-20px; margin-top:-20px;}
 
-/* ��ת���� css*/
+/* 旋转浮层 css*/
 #turnBox{ position:fixed; left:0; top:0; width:100%; height:100%; background:#000; z-index:1001;}
 #turnBox img.turn{ display:block; padding-top:8%; margin:0 auto 5%; width:40%;}
 #turnBox p{ text-align:center; font-size:14px; color:#fff;}
 
-/* ��Ƶ���� css*/
+/* 视频浮层 css*/
 .popVideo{ width:100%; height:100%; background:#000; position:fixed; left:0; top:0; display:none; z-index:999;}
 .popVideo .close{ position:absolute; right:20px; top:20px; width:30px; height:30px; background: url(../images/common/close.png) center center no-repeat; overflow:hidden; cursor:pointer;}
 #videoBox{ width:100%; height:100%;}
@@ -88,7 +88,7 @@ video{ background:#000;}
 .popIpad .video video{ width:100%; height:100%;}
 .popIpad .close{position:absolute; right:20px; top:20px; width:30px; height:30px; background: url(../images/common/close.png) center center no-repeat; background-size:contain; display:block; z-index:99;}
 
-/* ȡ��ϵͳalert�ľ�����ʾ���� css*/
+/* 取代系统alert的警告提示弹窗 css*/
 #popAlert{ position:absolute; background:#fff; box-shadow:0px 0px 10px #000; width:250px; padding:30px 30px 40px; display:none;}
 #popAlert p{ text-align:center;}
 #popAlert p.text{ margin-bottom:40px; font-size:14px; color:#333;}
@@ -213,15 +213,15 @@ html{font-size:100%;}
 body{font-size:1em;}
 .goto-top {display:none;position:fixed;right:0;bottom:0px;background:#000; color:#fff; text-align:center;font-size:10px; line-height:1;padding:10px;opacity:.8;cursor:pointer;}
 .goto-top:hover { opacity:1;color:#fff;}
-.goto-top:before { content:"��"; display:block; line-height:0;margin-bottom:1em; text-align:center}
-.goto-top:after{ content:"����"; display:block;}
+.goto-top:before { content:"︿"; display:block; line-height:0;margin-bottom:1em; text-align:center}
+.goto-top:after{ content:"顶部"; display:block;}
 .goto-top-show { display:block;}
 .seaNotbody { background-color: #fff;padding-bottom: 800px;/*Ҫ�޸�*/ }
 .seaNotbody h1 { font-size: 48px;line-height: 24px;color: #000;margin: 160px 0 40px 150px ; }
 .seaNotbody p { font-size: 30px;line-height: 72px;margin-left: 150px; }
 
 
-/*���Բ���*/
+/*弹性布局*/
 
 .flex {
     display: -webkit-flex;
@@ -334,11 +334,11 @@ body{font-size:1em;}
     .footer .footer-link dd>a{font-size: 0.75em;}
 }
 
-/*���ʹ����֮�Ӵ���� 768px ~ 979px   */
+/*如果使用者之视窗介於 768px ~ 979px   */
 @media screen and (min-width: 768px) and (max-width: 979px) {  
 	 body{font-size:.875em;}
 }
-/*���ʹ����֮�Ӵ� <= 768px   */
+/*如果使用者之视窗 <= 768px   */
 @media screen and (max-width: 767px) { 
     body{font-size:.75em;width: 100%;min-width: 0;}
     .footer .footer-right{text-align: center;}
@@ -346,7 +346,7 @@ body{font-size:1em;}
 	.media-mobile {display:block !important;}
     .media-mobile-ibk {display:inline-block !important;}
     
-    /* ͷ�� */
+    /* head mobile */
     .header-mobile {height: 5.1em;width: 100%;}
     .header-mobile .header-fixed {width: 100%;height: 100%;line-height: 5.1em;text-align: center;}
     .header-mobile .header-fixed.active {position: fixed;top: 0;width: 100%;z-index: 1000;height: 5.1em;background-color: #fff;}
