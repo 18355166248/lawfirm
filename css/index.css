@@ -1,5 +1,5 @@
 /* ban */
-.index .ban{text-align: center;height:0!important;padding-bottom: 43%;}
+.index .ban{text-align: center;}
 .index .ban img{width: 100%;max-width: 100%;}
 .index .ban .swiper-slide{width: 100%!important;}
 .index .ban .swiper-slide>a{position: relative;}
@@ -50,7 +50,7 @@
 .index .intro .container2 .section2 .title>p{font-size:1.125em; color: #4f4f4f;line-height: 1.2;}
 .index .intro .container2 .section2 .flex{text-align: left;}
 .index .intro .container2 .section2 .flex .item{transition: box-shadow .1s ease-in-out;width:24%;height: 25em;box-sizing: border-box;padding: 28px 25px;background-color: #fff;}
-.index .intro .container2 .section2 .flex .item:hover{box-shadow:0 2px 8px rgba(0,0,0,.08)}
+.index .intro .container2 .section2 .flex .item:hover{box-shadow:0 2px 8px rgba(0,0,0,.08);}
 .index .intro .container2 .section2 .flex .item>img{width: 35%;margin-bottom: 1em;}
 .index .intro .container2 .section2 .flex .item dt{font-size: 1.125em;margin-bottom: 0.8em;}
 .index .intro .container2 .section2 .flex .item dd{font-size: 1em;color: #121212;line-height: 1.4;}
@@ -113,6 +113,10 @@
 .alertBox .con .word-inner .swiper-slides .listBox dt{font-size: 1.125em;margin-bottom: 0.8em;}
 .alertBox .con .word-inner .swiper-slides .listBox dd{font-size: 1em;color: #121212;line-height: 1.4;}
 
+/* 768以上 */
+@media screen and (min-width: 767px){
+  .index .ban{height:0!important;padding-bottom: 43%;}
+}
 @media screen and (min-width: 1201px) and (max-width: 1440px){
   .index .intro .container2{padding-bottom: 65%;}
 }
@@ -165,13 +169,14 @@
   .none{display: none;}
   .container{padding: 0 1em;box-sizing: border-box;}
   .container2{box-sizing: border-box;background-color: #f6f6f6;}
-  .index .ban{height: auto!important;padding-bottom: 0;}
+  .index .ban{/*height: 50em!important;*/padding-bottom: 0;width: 100%!important;}
   .index .ban .tip{width: 84.5%;top: 10%;left: 50%;margin-left: -42.25%;text-align: center;background-color: rgba(0,0,0,.7);}
   .index .ban .tip .bg{visibility: hidden;}
   .index .ban .tip .title{font-size: 2em;margin-bottom: 0;line-height: 1.4;}
   .index .ban .tip .info{width: 65%;margin:3% auto 4%;}
   .index .ban .tip .btn{margin: 0 auto 23%;font-size: 1.3em;width: 72%;}
   .index .ban .tip .con{margin-top: 30%;}
+  /* section1 */
   .index .intro{padding-top: 7em;}
   .index .intro .section1 .flex1{flex-direction: column;}
   .index .intro .section1 .flex1>.flex{flex-direction: column;}
@@ -180,9 +185,10 @@
   .index .intro .section1 .imageBox{width: 100%;}
   .index .intro .section1 .imageBox>p{background-color: rgb(23,72,148,.6);font-size: 1.5em;line-height:1.4;}
   .index .intro .section1 .flex2,.index .intro .section1 .flex2>.flex{flex-direction: column;}
-  .index .intro .container2{padding-bottom: 0;height: auto;margin-top: 0;padding-top: 0;}
+  /* section2 */
+  .index .intro .container2{padding-bottom: 1em;height: auto;margin-top: 0;padding-top: 0;}
   .index .intro .container2 .section2 .title{margin-bottom: 2.9em;}
-  .index .intro .container2 .section2 .title>img{width: 4.45em;margin: 3em auto;}
+  .index .intro .container2 .section2 .title>img{width: 3em;margin: 3em auto;}
   .index .intro .container2 .section2 .title>h2{font-size: 1.6em;margin-bottom: 1.25em;}
   .index .intro .container2 .section2 .title>p{width: 85%;margin: 0 auto;line-height: 1.4;}
   .index .intro .container2 .section2 .flex{flex-direction: column;}
@@ -191,8 +197,40 @@
   .index .intro .container2 .section2 .flex .item>dl>dt{text-align: center;font-size: 1.25em;}
   .index .intro .container2 .section2 .flex .item>dl dd{text-align: left;font-size: 1.16em;}
   .index .intro .container2 .section2 .flex .item .item-more2{width: 2.45em;height: 1.375em;background-image: url(../images/index/m_arr.png);margin: 1.4em auto 0;}
+  /* section3 */
+  .index .intro .section3{margin-top: 3em;margin-bottom: 3.4em;}
+  .index .intro .section3>.box{flex-direction: column;}
+  .index .intro .section3>.box>div.con{width: 100%;}
+  .index .intro .section3>.box>div.con1{display: none;}
+  .index .intro .section3>.box>div.con2{text-align: center;}
+  .index .intro .section3>.box .p1{font-size: 0.875em;margin-top: 1.08em;margin-bottom: 0.4em;}
+  .index .intro .section3>.box .p3{font-size: 1em;margin-bottom: 0.8em;}
+  .index .intro .section3 .con2 .imageBox{padding-bottom: 1em;}
+  .index .intro .section3 .btn{font-size: 1.125em;padding: 1em 2em;margin-top: 1.5em;width: 53%;box-sizing: border-box;}
+  /* section4 */
+  .index .intro .section4{text-align: center;margin-bottom: 5em;}
+  .index .intro .section4 .p1{text-align:left; font-size: 1.08em;margin-top: 0;margin-bottom:1.3em;}
+  .index .intro .section4 .p2{text-align:left;font-size: 1.6em;margin-bottom:1em;}
+  .index .intro .section4 .p3{display: none;}
+  .index .intro .section4>.flex{flex-wrap: wrap;}
+  .index .intro .section4 .item{margin-bottom: 1em; width: 49%;text-align: center;overflow: hidden;transition: box-shadow .1s ease-in-out;box-shadow:0 2px 8px rgba(0,0,0,.08);}
+  .index .intro .section4 .item>img{width: 100%;}
+  .index .intro .section4 .title{font-size: 1.3em;margin-top: 1em;margin-bottom: .3em;}
+  .index .intro .section4 .title2{font-size: 1.125em;color: #121212;margin-bottom: .3em;}
+  .index .intro .section4 .info{overflow: hidden;text-align: justify;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp: 6;-webkit-box-orient: vertical;height: auto;font-size: .875em;color: #4f4f4f;line-height: 1.2;padding: 0 1.5em;}
+  .index .intro .section4 .info.active{display: block;height: auto;}
+  .index .intro .section4 .btn{font-size: 1.125em;padding: 1em 2em;margin-top: 2.3em;width: 53%;box-sizing: border-box;}
 
-
-
-
+  /* section5 */
+  .index .intro .section5{margin-bottom: 3.3em;}
+  .index .intro .section5>.flex{flex-direction: column;width: 100%;box-sizing: border-box;}
+  .index .intro .section5 .map-container{height:40em;margin-right: 0;width: 100%;flex: 1; -webkit-flex: 1;}
+  .index .intro .section5 .map-container .map{width: 100%;height: 100%;}
+  .index .intro .section5>.flex>.flex-item-1{text-align: center;width: 100%;}
+  .index .intro .section5 .line{width: 3em;margin:2.4em auto;}
+  .index .intro .section5 .title{font-size: 1.7em;}
+  .index .intro .section5 .title2{margin-top:.2em;margin-bottom: 0.75em;}
+  .index .intro .section5 .info{margin-bottom: .2em;}
+  .index .intro .section5 .info>p{font-size: 1em;}
+  
 }  

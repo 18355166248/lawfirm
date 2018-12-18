@@ -23,7 +23,11 @@
 .intro .container .box .mini-box .describ h3 { font-size: 1.2em;font-weight: 700;letter-spacing: 5px;margin: .62rem 0 1em 0; }
 .intro .container .box .mini-box .describ span { display: inline-block;width: 2.62em;height: .25em;background-color: #174894;margin-bottom: 1.1em; }
 .intro .container .box .mini-box .describ p { font-size: .875em;color: #4f4f4f;line-height: 1.25em;padding: 0 1.43em; }
-  
+
+/* 768以上 */
+@media screen and (min-width: 767px){
+  .lodeMore{display: none;}
+}
 @media screen and (max-width:1200px){
   .about {margin: 7.1em 0 2.4em 0;}
 }
@@ -42,6 +46,14 @@
   .banner .txt { top: 35%; position: static;width: 100%;margin-top: 7.1em;}
   .intro { padding: 0 4%; }
   .intro .container .box .mini-box { width: 47.97%;}
-  .intro .container .box .mini-box .describ p {font-size: .833em;padding: 0 1em;}
-  .intro .container .box .mini-box .describ {height: 22.6em;}
+  .intro .container .box .mini-box .describ{border:none;box-shadow:0 2px 8px rgba(0,0,0,.08);}
+  .intro .container .box .mini-box .describ h3{padding: .62rem 0 1em 0;margin:0 auto;}
+  .intro .container .box .mini-box .describ p {font-size: 0.9em;padding: 0 1em;}
+  .intro .container .box .mini-box .describ {height: 20em;}
+  .lodeMore{
+    margin:1em auto 0; 
+    width: 4em;
+    height: 2.3em;
+    background-image: url(../images/lawyer_intro/icon_arr.png);
+  }
 }  

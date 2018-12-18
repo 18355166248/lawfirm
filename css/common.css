@@ -365,5 +365,8 @@ body{font-size:1em;}
     .footer-link2 .uk-text-logo {margin-bottom: 2.7em;}
     .uk-flex-1 {text-align: left;margin-bottom: 2.5em;padding-left: 1.25em;}
     .uk-flex-1 p {line-height: 2em;}
+    .footer-link2 .uk-text-logo {margin-bottom: 3em;width: 4.6em;}
+    .footer-link2 .uk-text-logo img{width: 100%;height: auto;}
+    .footer .container {background-image: url(../images/common/map-footer2.png);background-attachment: initial;background-position: center center;background-repeat: no-repeat;background-size: auto;}
 }
 
