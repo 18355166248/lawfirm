@@ -211,7 +211,7 @@ strong{font-weight: bold;}
 .hide{display: none;}
 html{font-size:100%;}
 body{font-size:1em;}
-.goto-top {display:none;position:fixed;right:0;bottom:0px;background:#000; color:#fff; text-align:center;font-size:10px; line-height:1;padding:10px;opacity:.8;cursor:pointer;}
+.goto-top {z-index: 9999; display:none;position:fixed;right:0;bottom:0px;background:#000; color:#fff; text-align:center;font-size:10px; line-height:1;padding:10px;opacity:.8;cursor:pointer;}
 .goto-top:hover { opacity:1;color:#fff;}
 .goto-top:before { content:"︿"; display:block; line-height:0;margin-bottom:1em; text-align:center}
 .goto-top:after{ content:"顶部"; display:block;}

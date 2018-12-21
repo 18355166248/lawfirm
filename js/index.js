@@ -3,6 +3,7 @@ $(function  () {
 	var close = alertBox.find('.close');
 	var item_more = $('.container2').find('.item-more');
 	var item_more2 = $('.container2').find('.item-more2');
+	var section2Btn = $('#section2Btn');
 	var swiperArr = $('.alertBox .swiper').children();
 	var arr_left = alertBox.find('.arr_left');
 	var arr_right = alertBox.find('.arr_right');
@@ -27,6 +28,13 @@ $(function  () {
 		arr_right.on('click',arr_right_click);
 		arr_more.on('click',arr_more_click);
 		item_more2.on('click',item_more2_click);
+		section2Btn.on('click', section2Btn_click);
+	}//end func
+
+	function section2Btn_click(e) {
+		currentIndex = 0;
+		alertBox.fadeIn();
+		swiperArr.eq(currentIndex).show().siblings('.swiper-slides').hide();
 	}//end func
 
 	function item_more2_click(e){
@@ -34,14 +42,13 @@ $(function  () {
 		
 	}//end func
 
-
-
-
 	function item_more_click(e){
 		alertBox.fadeIn();
 		currentIndex = $(this).parent().index();
 		swiperArr.eq(currentIndex).show().siblings('.swiper-slides').hide();
 	}//end func
+
+
 	function close_click(e){
 		alertBox.fadeOut();
 	}//end func
