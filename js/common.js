@@ -101,7 +101,7 @@ $(function () {
         $('#dialog').on('click', function() {
             if (event.target.id === 'dialog' || event.target.nodeName === 'svg') {
                 $('#dialog>.menu-box').removeClass('active')
-                setTimeout(() => {
+                setTimeout(function() {
                     $('#dialog').hide()
                     $('html').css('overflow-y', 'auto')
                 }, 320)
@@ -113,7 +113,7 @@ $(function () {
         $('.header-mobile .logo').on('click', function() {
             $('html').css('overflow-y', 'hidden')
             $('#dialog').show()
-            setTimeout(() => {
+            setTimeout(function() {
                 $('#dialog>.menu-box').addClass('active')
             }, 0)
         })

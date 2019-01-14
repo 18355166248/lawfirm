@@ -16,7 +16,7 @@ $(function  () {
 			loop:false,
 			onlyExternal : true,
 			autoplay : 3000,
-			autoplayDisableOnInteraction : false,
+			autoplayDisableOnInteraction : false
 		});
 		eventBind();
 	}//end func

@@ -2,10 +2,10 @@ $(function () {
   $.getJSON("data/lawyer_intro.json", function (data) {
     console.log(data);
     //公共变量的定义
-    let now = 1 ;//初始页面显示分页数
-    let onePageNum = 6;//每次点击加载数量(分页内容数量)
-    let totalNum = data.list.length;
-    let pageCount = Math.ceil(totalNum / onePageNum); //总分页数
+    var now = 1 ;//初始页面显示分页数
+    var onePageNum = 6;//每次点击加载数量(分页内容数量)
+    var totalNum = data.list.length;
+    var pageCount = Math.ceil(totalNum / onePageNum); //总分页数
     $(".banner>.txt>h2").text(data.title)
     $(".banner>.txt>p:first").text(data.txt1)
     $(".banner>.txt>p:last").text(data.txt2)
@@ -16,8 +16,8 @@ $(function () {
 
     } else {
       //pc端
-      let html = ''
-      data.list.forEach(v => {
+      var html = ''
+      data.list.forEach(function(v) {
         html += '<div class="mini-box">' +
           '<img src="./images/lawyer_intro/' + v.url + '.png" alt="">' +
           '<div class="describ">' +
