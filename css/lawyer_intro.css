@@ -1,6 +1,6 @@
 .banner { width: 100%;position: relative;}
 .banner > img { display: inline-block;width: 100%;}
-.banner .txt { position: absolute;right: 17%;top: 44%;text-align: center;width: 30.2em; }
+.banner .txt { position: absolute;right: 17%;top: 49%;text-align: center;width: 30.2em; }
 .banner .txt > img { width: 16%; }
 .banner .txt > h2 { font-size: 2em; margin: .75em 0 1em 0}
 .banner .txt > p { text-align: left;font-size: 1em;color: #4f4f4f;letter-spacing: 1px;line-height: 1.3em; }

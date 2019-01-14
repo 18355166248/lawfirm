@@ -3,12 +3,12 @@
 .index .ban img{width: 100%;max-width: 100%;}
 .index .ban .swiper-slide{width: 100%!important;}
 .index .ban .swiper-slide>a{position: relative;}
-.index .ban .tip{width:46%;;position: absolute;top: 30%;left: 18.75%;color: #fff;text-align: left;}
+.index .ban .tip{width:auto;position: absolute;top: 30%;left: 18.75%;color: #fff;text-align: left;}
 .index .ban .tip .con,.index .ban .tip .btn{z-index: 2;position: relative;}
 .index .ban .tip .title{font-size: 2.6em;margin-bottom: 18px;}
-.index .ban .tip .info{font-size: 1.125em;opacity: .8;width: 94.8%;margin-top: 17px;margin-bottom: 4%; line-height:1.4;}
+.index .ban .tip .info{font-size: 1.125em;opacity: .8;width: 62%;margin-top: 17px;margin-bottom: 4%; line-height:1.4;}
 .index .ban .tip .btn{overflow: hidden; font-size: 1.125em;text-align: center; opacity: .8;width: 35%;height: 3em;line-height: 3em;line-height: 3em;background-color: #174894;}
-.index .ban .tip .bg{width: 60%;height: 15em;background-color: #130f0c;position: absolute;top: 0;left: -1em;z-index: 1;}
+.index .ban .tip .bg{width: 36%;height: 15em;background-color: #130f0c;position: absolute;top: 0;left: -1em;z-index: 1;}
 /* intro */
 .index .intro{padding-top: 3.5%;}
 .index .intro .section{width: 100%;}
