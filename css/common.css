@@ -1,11 +1,5 @@
 @charset "UTF-8";
 @font-face {  
-   font-family: 'PFbold';     
-   src: url('fonts/PingFangSCMedium.ttf'); 
-	 font-weight: normal;   
-	 font-style: normal;
-}
-@font-face {  
 	font-family: 'PF';     
 	src: url('fonts/PingFangSC.ttf'); 
 	  font-weight: normal;   
@@ -131,8 +125,9 @@ strong{font-weight: bold;}
 .footer .footer-link dl:nth-child(3) h2>a,.footer .footer-link dl:nth-child(4) h2>a{font-size:1em; color: #fff;}
 .footer .footer-link dl:nth-child(3) h2,.footer .footer-link dl:nth-child(4) h2{margin-bottom: 20px;margin-top: 20px;}
 
-.footer-link2{display: flex;align-items:center;justify-content: center;}
-.footer-link2 .uk-text-left{font-size: 0.8em;color: #b3b3b3;text-align: left;}
+.footer-link2{display: flex;align-items:center;justify-content: center;flex-direction: column-reverse;}
+.footer-link2 .uk-text-left{font-size: 0.8em;color: #b3b3b3;text-align: left;margin-top: 1em;}
+.footer-link2 .uk-text-left p{line-height: 1.5;}
 .footer-link2>div{flex-wrap:nowrap;flex: 1;}
 .footer-link2 .uk-text-logo img{width: 112px;height: 124px;}
 .footer-link2 .uk-text-chat{text-align: right;}
@@ -360,12 +355,12 @@ body{font-size:1em;}
     #dialog .menu-box > div {height: 3em;line-height: 3em;}
     #dialog .menu-box .menu-title {font-weight: 700;font-size: 1.2em;}
 
-    .footer-link2 {flex-direction: column;}
+    .footer-link2 {/*flex-direction: column;*/flex-direction: column-reverse;}
     .footer-link2 .uk-text-left {margin: 2.5em 0 1.5em 0;}
     .footer-link2 .uk-text-logo {margin-bottom: 2.7em;}
     .uk-flex-1 {text-align: left;margin-bottom: 2.5em;padding-left: 1.25em;}
     .uk-flex-1 p {line-height: 2em;}
-    .footer-link2 .uk-text-logo {margin-bottom: 3em;width: 4.6em;}
+    .footer-link2 .uk-text-logo {/*margin-bottom: 3em;*/width: 4.6em;margin-bottom: 0;}
     .footer-link2 .uk-text-logo img{width: 100%;height: auto;}
     .footer .container {background-image: url(../images/common/map-footer2.png);background-attachment: initial;background-position: center center;background-repeat: no-repeat;background-size: auto;}
 }
