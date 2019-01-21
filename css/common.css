@@ -16,7 +16,7 @@ html,body{ width:100%; height:100%;}
 .bold{font-family: 'PFbold'}
 body{min-width: 930px;font-family: "PF",arial;}
 .font-en,.font-en sup{font-family:'PF', arial, sans-serif;}
-a:visited{background-color: none;color: transparent;}
+a:visited{background-color: none;}
 * {outline: none; margin:0;padding:0; border:0; word-break:break-all; word-wrap:normal; line-height:1;font-weight:normal;}
 table{border-collapse:collapse;border-spacing:0;}
 fieldset,img {border:0 none;}
@@ -128,7 +128,7 @@ strong{font-weight: bold;}
 .footer-link2{display: flex;display: -webkit-flex; -webkit-align-items:center; align-items:center;-webkit-justify-content:centwe;justify-content: center;-webkit-flex-direction:column-reverse; flex-direction: column-reverse;}
 .footer-link2 .uk-text-left{font-size: 0.8em;color: #b3b3b3;text-align: left;margin-top: 1em;}
 .footer-link2 .uk-text-left p{line-height: 1.5;}
-.footer-link2>div{flex-wrap:nowrap;flex: 1;}
+.footer-link2>div{flex-wrap:nowrap;}
 .footer-link2 .uk-text-logo img{width: 112px;height: 124px;}
 .footer-link2 .uk-text-chat{text-align: right;}
 .footer-link2 .uk-text-chat .shareBox{display: inline-block;}
