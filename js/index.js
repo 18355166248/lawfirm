@@ -29,7 +29,13 @@ $(function  () {
 		arr_more.on('click',arr_more_click);
 		item_more2.on('click',item_more2_click);
 		section2Btn.on('click', section2Btn_click);
+		$('.tip .btn').on('click',btn_click);
 	}//end func
+
+	function btn_click() {
+		window.location.href = 'lawyer_intro.html';
+	}//end func
+
 
 	function section2Btn_click(e) {
 		currentIndex = 0;
