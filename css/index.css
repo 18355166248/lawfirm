@@ -119,7 +119,9 @@
   .index .ban{height:0!important;padding-bottom: 43%;}
 }
 @media screen and (min-width: 1201px) and (max-width: 1440px){
+  .index .ban .tip{top: 25%;}
   .index .intro .container2{padding-bottom: 65%;}
+  .index .ban .tip .title{font-size: 2.3em;}
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1366px){

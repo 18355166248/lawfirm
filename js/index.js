@@ -83,7 +83,7 @@ $(function  () {
 	//公共变量定义
 	var imap = new baidumap();
 	imap.init("map");
-	imap.locateMarker("中原律师事务所", "上海市浦东新区东方路8号良丰大厦7楼A室");
+	imap.locateMarker("中原律师事务所", "上海市浦东新区东方路8号良丰大厦");
 	
 })
 

@@ -16,10 +16,10 @@
 
 /* 律师团队 */
 .intro { margin-bottom: 3.6em; }
-.intro .container .box { display: flex;justify-content: space-between;flex-wrap: wrap; }
+.intro .container .box { display: flex;justify-content: space-between;flex-wrap: wrap; align-items: stretch;}
 .intro .container .box .mini-box { width: 24%;margin-bottom: 2.25em; }
 .intro .container .box .mini-box img { width: 100%; }
-.intro .container .box .mini-box .describ { border: 1px solid #d8d8d8;width: 100%;height: 16.25em;box-sizing: border-box;text-align: center; }
+.intro .container .box .mini-box .describ { border: 1px solid #d8d8d8;width: 100%;height: 23em;box-sizing: border-box;text-align: center; }
 .intro .container .box .mini-box .describ h3 { font-size: 1.2em;font-weight: 700;letter-spacing: 5px;margin: .62rem 0 1em 0; }
 .intro .container .box .mini-box .describ span { display: inline-block;width: 2.62em;height: .25em;background-color: #174894;margin-bottom: 1.1em; }
 .intro .container .box .mini-box .describ p { font-size: .875em;color: #4f4f4f;line-height: 1.25em;padding: 0 1.43em; }
@@ -45,11 +45,13 @@
   .about p:nth-child(3) {margin-bottom: 1.14em;}
   .banner .txt { top: 35%; position: static;width: 100%;margin-top: 7.1em;}
   .intro { padding: 0 4%; }
+  .intro .container .box{align-items: stretch;}
   .intro .container .box .mini-box { width: 47.97%;}
+  .intro .container .box .mini-box>img{height: 149px;object-fit: cover;}
   .intro .container .box .mini-box .describ{border:none;box-shadow:0 2px 8px rgba(0,0,0,.08);}
   .intro .container .box .mini-box .describ h3{padding: .62rem 0 1em 0;margin:0 auto;}
   .intro .container .box .mini-box .describ p {font-size: 0.9em;padding: 0 1em;}
-  .intro .container .box .mini-box .describ {height: 20em;}
+  .intro .container .box .mini-box .describ {height: calc(100% - 149px);padding-bottom: 2em;}
   .lodeMore{
     margin:1em auto 0; 
     width: 4em;
